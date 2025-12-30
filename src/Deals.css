@@ -26,17 +26,18 @@
   text-decoration: underline;
   font-size: 14px;
 }
-.saveoffer{
-    height: 300px;
-    width: 100%;
-    background-image: url(./assets/backgrundimage.jpg);
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    color: #fdfbfb;
+
+.saveoffer {
+  height: 300px;
+  width: 100%;
+  background-image: url("../assets/backgrundimage.jpg");
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  color: #fdfbfb;
 }
 
-.saveoffer h1{
-    font-weight: 500;
-    font-size: 80px;
+.saveoffer h1 {
+  font-weight: 500;
+  font-size: 80px;
 }
