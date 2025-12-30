@@ -30,7 +30,7 @@
 .saveoffer {
   height: 300px;
   width: 100%;
-  background-image: url("../assets/backgrundimage.jpg");
+  background-image: url("./assets/backgrundimage.jpg");
   align-items: center;
   align-content: center;
   justify-items: center;
