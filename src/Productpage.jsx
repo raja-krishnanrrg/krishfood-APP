@@ -26,7 +26,7 @@ const MenuProductPage = () => {
       name: "2 Chana Burgers",
       price: 220,
       category: "Burgers",
-      image: "assets/burger1.jpg",
+      image: "./assets/burger1.jpg",
       subcat: "Non-veg",
       describtion: "Relish 2 Chana burgers",
       subimage: "./src/assets/nonvegsymb.svg",
