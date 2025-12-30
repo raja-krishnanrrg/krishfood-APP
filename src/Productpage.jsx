@@ -5,6 +5,9 @@ import { CartContext } from "./CartContext";
 import { useNavigate } from "react-router-dom";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import './Products.css'
+import burger1 from './assets/burger1.jpg'
+
+
 const MenuProductPage = () => {
   const { addToCart } = useContext(CartContext);
   const navigate = useNavigate();
@@ -26,7 +29,7 @@ const MenuProductPage = () => {
       name: "2 Chana Burgers",
       price: 220,
       category: "Burgers",
-      image: "./assets/burger1.jpg",
+      image: burger1,
       subcat: "Non-veg",
       describtion: "Relish 2 Chana burgers",
       subimage: "./src/assets/nonvegsymb.svg",
