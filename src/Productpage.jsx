@@ -15,8 +15,8 @@ const MenuProductPage = () => {
     "Sandwich",
     "Drinks",
     "Desserts",
-    
-    
+
+
   ];
 
   // PRODUCTS (ARRAY OBJECT)
@@ -26,7 +26,7 @@ const MenuProductPage = () => {
       name: "2 Chana Burgers",
       price: 220,
       category: "Burgers",
-      image: "./src/assets/burger1.jpg",
+      image: "assets/burger1.jpg",
       subcat: "Non-veg",
       describtion: "Relish 2 Chana burgers",
       subimage: "./src/assets/nonvegsymb.svg",
@@ -63,7 +63,7 @@ const MenuProductPage = () => {
       image: "./src/assets/pizza1.jpg",
       subcat: "Non-veg",
       describtion: "pizza with banner butter with chicks",
-       subimage: "./src/assets/nonvegsymb.svg",
+      subimage: "./src/assets/nonvegsymb.svg",
       qty: 0
     },
     {
@@ -131,7 +131,7 @@ const MenuProductPage = () => {
       describtion: "lime chill soda",
       qty: 0,
       subimage: "./src/assets/vegsymbol.svg",
-    },{
+    }, {
       id: 11,
       name: "banner mullet",
       price: 902,
@@ -141,10 +141,10 @@ const MenuProductPage = () => {
       describtion: "banner mullet",
       qty: 0,
       subimage: "./src/assets/vegsymbol.svg",
-    },{
+    }, {
       id: 12,
       name: "strawberry",
-      price:790,
+      price: 790,
       category: "Desserts",
       image: "./src/assets/ice1.jpg",
       subcat: "veg",
@@ -198,7 +198,7 @@ const MenuProductPage = () => {
 
                   <Card.Img
                     src={item.image}
-                    style={{ objectFit: "cover", height:"300px" }}
+                    style={{ objectFit: "cover", height: "300px" }}
                   />
 
                   <Card.Body>
