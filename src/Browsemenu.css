@@ -1,0 +1,14 @@
+.lines{
+    height:2px;
+    background-color: rgb(139, 138, 138);
+    width: 600px;
+    margin-left:150px;
+    border-radius: 10px;
+}
+.menu-card{
+    background-color: rgba(255, 228, 196, 0.237);
+}
+
+.lastcart{
+    height: 200px;
+}

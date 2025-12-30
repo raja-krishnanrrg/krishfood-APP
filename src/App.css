@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+   padding: 0;
+   font-weight: bolder;
+}
+.cartimage{
+    height: 60px;
+}
+.quantity{
+    margin-left: -35px;
+    margin-top: 20px;
+}
+.navbars{
+    height: 90px;
+}
+
+.attachs{
+    text-decoration: none;  
+    color: black;
+}
+
+.attachs:hover{
+    color: red;
+
+}
+.foodworld:hover{
+    color: red;
+}
+.foodworld{
+    text-decoration:none ;
+
+}
