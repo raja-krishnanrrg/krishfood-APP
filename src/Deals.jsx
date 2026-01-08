@@ -64,7 +64,9 @@ const Deals = () => {
                 </a>
 
                 <div className="mt-3">
-                 <Button variant="danger" className="w-100" > 
+                 <Button variant="danger" className="w-100" onClick={()=>{
+                  alert("SOORRY WE CAN UPDATE IT SOON!😊")
+                 }}> 
                       Add to cart
                     </Button>
                 </div>
