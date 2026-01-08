@@ -1,6 +1,9 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 import "./Deals.css";
+import epicwe from "./assets/offer1.jpg";
+import gold from "./assets/offer2.jpg";
+import box from "./assets/offer3.jpg";
 const Deals = () => {
 
     const offers = [
@@ -8,21 +11,21 @@ const Deals = () => {
     id: 1,
     title: "FREE CLASSIC ZINGER",
     minOrder: 499,
-    image: "./src/assets/offer2.jpg",
+    image:epicwe,
     description: "Offer valid only on 1st order",
   },
   {
     id: 2,
     title: "2 PC HOT & CRISPY CHICKEN @ RS 99",
     minOrder: 499,
-    image: "./src/assets/offer2.jpg",
+    image: gold,
     description: "On 2nd & 3rd order",
   },
   {
     id: 3,
     title: "UPTO RS 100 OFF",
     minOrder: 699,
-    image: "./src/assets/offer3.jpg",
+    image:box,
     description: "Applicable on 4th order onwards",
   },
 ];

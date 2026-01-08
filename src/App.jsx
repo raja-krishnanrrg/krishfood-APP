@@ -12,6 +12,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import  Deliverorder from "./Deliverorder";
 import MenuProductPage from "./Productpage"
 import { useSelector } from 'react-redux';
+import cartiamge from "./assets//cart.png"
 // import { useContext } from "react";
 // import { CartContext } from "./CartContext";
 
@@ -60,7 +61,7 @@ function App() {
          </Navbar.Collapse>
               <Form className="d-flex ">
                 <h5 className='mt-3 me-4'> Signin</h5>
-          <Link to='/cart' className='attachs'> <img src="./src/assets/cart.png" className='cartimage'/></Link>
+          <Link to='/cart' className='attachs'> <img src={cartiamge} className='cartimage'/></Link>
            <span className='quantity '>{cartProducts.length}</span>
             
           </Form>
