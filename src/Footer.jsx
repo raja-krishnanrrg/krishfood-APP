@@ -28,7 +28,7 @@ const Footer = () => {
 
           {/* KFC India */}
           <Col md={2} sm={6} xs={6} className="mb-4">
-            <h6>KFC India</h6>
+            <h6>foodworld</h6>
             <ul>
               <li>About foodworld</li>
               <li>foodworld</li>
