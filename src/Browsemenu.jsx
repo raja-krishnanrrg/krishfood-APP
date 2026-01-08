@@ -1,7 +1,15 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Browsemenu.css'
+import epicwe from "./assets/epicbucket.webp";
+import gold from "./assets/goldedition.webp";
+import box from "./assets/boxmeals.webp";
+import variety from "./assets/varietybuckets.webp";
+import veges from "./assets/vegees.webp";
+import bugetchick from "./assets/bugetimages.jpg";
+import kfcburfg from "./assets/KFC-Burger.webp";
+import rice from "./assets/ricebowls.webp";
+
 const BrowseMenu = () => {
   return (
     <Container className="my-5">
@@ -19,7 +27,7 @@ const BrowseMenu = () => {
         <Col xs={12} lg={6}>
           <Card className="menu-card h-100 border-0">
             <Card.Img
-              src="./src/assets/epicbucket.webp"
+              src={epicwe}
               className="big-img"
             />
             <Card.Body className="text-center fw-bold  mt-5">
@@ -34,7 +42,7 @@ const BrowseMenu = () => {
 
             <Col xs={12} md={6}>
               <Card className="menu-card border-0">
-                <Card.Img src="./src/assets/goldedition.webp" className="small-img" />
+                <Card.Img src={gold} className="small-img" />
                 <Card.Body className="text-center fw-bold p-4">
                   GOLD EDITION
                 </Card.Body>
@@ -43,7 +51,7 @@ const BrowseMenu = () => {
 
             <Col xs={12} md={6}>
               <Card className="menu-card border-0">
-                <Card.Img src="./src/assets/boxmeals.webp" className="small-img" />
+                <Card.Img src={box} className="small-img" />
                 <Card.Body className="text-center fw-bold p-4">
                   BOX MEALS
                 </Card.Body>
@@ -52,7 +60,7 @@ const BrowseMenu = () => {
 
             <Col xs={12} md={6}>
               <Card className="menu-card border-0">
-                <Card.Img src="./src/assets/varietybuckets.webp" className="small-img" />
+                <Card.Img src={variety} className="small-img" />
                 <Card.Body className="text-center fw-bold p-4">
                   VARIETY BUCKETS
                 </Card.Body>
@@ -61,7 +69,7 @@ const BrowseMenu = () => {
 
             <Col xs={12} md={6}>
               <Card className="menu-card border-0">
-                <Card.Img src="./src/assets/vegees.webp" className="small-img" />
+                <Card.Img src={veges} className="small-img" />
                 <Card.Body className="text-center fw-bold p-4">
                   VEG
                 </Card.Body>
@@ -76,7 +84,7 @@ const BrowseMenu = () => {
           <Row className="g-4">
             <Col >
               <Card className="menu-card border-0">
-                <Card.Img src="./src/assets/bugetimages.jpg" className="small-img p-1" />
+                <Card.Img src={bugetchick} className="small-img p-1" />
                 <Card.Body className="text-center fw-bold ">
                  CHICKENBUCKETES
                 </Card.Body>
@@ -85,7 +93,7 @@ const BrowseMenu = () => {
 
                          <Col >
               <Card className="menu-card border-0">
-                <Card.Img src="./src/assets/KFC-Burger.webp" className="small-img" />
+                <Card.Img src={kfcburfg} className="small-img" />
                 <Card.Body className="text-center fw-bold p-4">
                   BURGER
                 </Card.Body>
@@ -94,7 +102,7 @@ const BrowseMenu = () => {
 
                              <Col >
               <Card className="menu-card border-0">
-                <Card.Img src="./src/assets/snaks.webp" className="small-img" />
+                <Card.Img src={box}className="small-img" />
                 <Card.Body className="text-center fw-bold p-4">
                 SNACKS
                 </Card.Body>
@@ -103,7 +111,7 @@ const BrowseMenu = () => {
 
                            <Col >
               <Card className="menu-card border-0">
-                <Card.Img src="./src/assets/ricebowls.webp" className="small-img" />
+                <Card.Img src={rice} className="small-img" />
                 <Card.Body className="text-center fw-bold p-4">
                  RICE BOWLS
                 </Card.Body>

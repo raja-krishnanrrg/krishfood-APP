@@ -8,7 +8,6 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
  import BrowseMenu from './Browsemenu';
 import  Deliverorder from "./Deliverorder";
 import MenuProductPage from "./Productpage"
@@ -19,6 +18,7 @@ import { useSelector } from 'react-redux';
 import Deals from "./Deals"
 
 import './App.css'
+import Footer from './Footer';
 
 function App() {
     const cartProducts = useSelector((state) => state.cart.cartItems);
@@ -67,14 +67,16 @@ function App() {
          
         </Container>
       </Navbar>
+
     <Deliverorder/>    
          <Routes>
           <Route path='/' element={<BrowseMenu />}></Route>
           <Route path='/productpage' element={< MenuProductPage/>}></Route>
           <Route path='/cart' element={<CartPage/>}></Route>
           <Route path='/deals' element={<Deals/>}></Route>
+          {/* <Route path='/' element={<Footer/>}></Route> */}
         </Routes>
-          
+        <Footer/>  
     </>
   )
 }

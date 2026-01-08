@@ -1,0 +1,67 @@
+.footer-wrapper {
+  background: #1c1c1c;
+}
+
+.footer-logo {
+  width: 80px;
+}
+
+.footer-wrapper h6 {
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.footer-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-wrapper ul li {
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: #b5b5b5;
+  cursor: pointer;
+}
+
+.footer-wrapper ul li:hover {
+  color: #ffffff;
+}
+
+.find-kfc {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.app-buttons img {
+  width: 140px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  font-size: 13px;
+}
+
+.social-icons svg {
+  margin: 0 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.social-icons svg:hover {
+  color: #e4002b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+
+  .app-buttons img {
+    width: 120px;
+  }
+}
