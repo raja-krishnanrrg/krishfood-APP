@@ -2,7 +2,6 @@
 // import { createRoot } from 'react-dom/client'
 // import './index.css'
 // import App from './App.jsx'
-
 // createRoot(document.getElementById('root')).render(
 //   <StrictMode>
 //     <App />
@@ -15,12 +14,20 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import CartProvider from "./CartContext";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { store } from "./store/Store";
+import {Provider} from "react-redux"
+import MenuProductPage from "./Productpage";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    <CartProvider>
+    {/* <CartProvider>
       <App />
-    </CartProvider>
+    </CartProvider> */}
+    <Provider store ={store}>
+      <App/>
+      {/* <MenuProductPage/> */}
+        </Provider>
+    
+    
   </BrowserRouter>
 );

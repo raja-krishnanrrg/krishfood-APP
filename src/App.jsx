@@ -12,27 +12,19 @@ import Navbar from 'react-bootstrap/Navbar';
  import BrowseMenu from './Browsemenu';
 import  Deliverorder from "./Deliverorder";
 import MenuProductPage from "./Productpage"
-
-import { useContext } from "react";
-import { CartContext } from "./CartContext";
+import { useSelector } from 'react-redux';
+// import { useContext } from "react";
+// import { CartContext } from "./CartContext";
 
 import Deals from "./Deals"
-
-
-
-
 
 import './App.css'
 
 function App() {
-  const { cart } = useContext(CartContext);
-
-
- 
-
-
-
-
+    const cartProducts = useSelector((state) => state.cart.cartItems);
+  
+    
+  
   return (
     <> 
           
@@ -69,29 +61,20 @@ function App() {
               <Form className="d-flex ">
                 <h5 className='mt-3 me-4'> Signin</h5>
           <Link to='/cart' className='attachs'> <img src="./src/assets/cart.png" className='cartimage'/></Link>
-           <span className='quantity '>{cart.length}</span>
+           <span className='quantity '>{cartProducts.length}</span>
             
           </Form>
          
         </Container>
       </Navbar>
-    <Deliverorder/>
-  
-            
+    <Deliverorder/>    
          <Routes>
           <Route path='/' element={<BrowseMenu />}></Route>
           <Route path='/productpage' element={< MenuProductPage/>}></Route>
           <Route path='/cart' element={<CartPage/>}></Route>
           <Route path='/deals' element={<Deals/>}></Route>
         </Routes>
-      
-  
-     
-
-      
-
-  
-    
+          
     </>
   )
 }
